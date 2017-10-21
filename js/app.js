@@ -21,12 +21,8 @@ angular.module('BlackApp').config(function($locationProvider, $routeProvider) {
     .when('/info', {
         templateUrl: 'templates/info.html',
         // 'ContactusController'
-    })
-
-    .when('/winclean', {
-        templateUrl: 'templates/winclean.html',
-        //controller: 'WincleanController'
     });
 
+   
 
 });
