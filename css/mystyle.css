@@ -14,13 +14,14 @@ body {
 	font: 90%/1.6 baskerville, palatino, 'palatino linotype', georgia,serif;
 }
 
-/*content styling*/
+/*content styling*  - This will relate the banner the image of the blackstreet band*/
 header {
 	background: #4F483E;
 	background-image: url("/media/black_backgroundcover.png");
 	padding: 50px 25px 10px 0;
 	color: #fff;
 	margin-bottom: 2em;
+	opacity: 0.7;
 }
 h1 {
 	text-align: right;
@@ -125,7 +126,7 @@ footer {
 	padding: 25px 0 15px;
 }
 
-/*content styles*/
+/*CONTENT STYLES*/
 h1 {
 	font-size: 2.4em;
 }
@@ -134,7 +135,7 @@ footer {
 }
 }
 @media all and (max-width: 480px) {
-/*layout*/
+/*layout* - smart phone*/
 body {
 	width: 90%;
 	max-width: 480px;
@@ -142,9 +143,7 @@ body {
 article {
 	padding: 0 5%;
 }
-footer {
-	padding: 25px 0 15px;
-}
+
 /*content styles*/
 header {
 	padding: 25px 15px 5px 0;
@@ -163,6 +162,17 @@ aside {
 	line-height: 2;
 }
 footer {
-	font-size: .7em;
+	font-size: .6em;
 }
+
+
+footer {
+	padding: 15px 0 15px;
+}
+
+
+.secTwo{
+
+}
+
 }
