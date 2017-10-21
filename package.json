@@ -1,0 +1,19 @@
+{
+  "name": "blackstreet",
+  "version": "1.0.0",
+  "description": "R&B",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ariesdav333/blackstreet.git"
+  },
+  "author": "David Williams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ariesdav333/blackstreet/issues"
+  },
+  "homepage": "https://github.com/ariesdav333/blackstreet#readme"
+}
