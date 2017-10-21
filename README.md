@@ -1,4 +1,4 @@
-# Blackstreet Image App
+#Blackstreet Image App
 
 ## Overview
 
@@ -10,6 +10,11 @@ It will have a dark background colour. And it will be filled with images that yo
  
 ## Tech Used
 
-The main navbar will be responsive and also make use of the single page applcation routing on <b>Angular JS</b>. Styling will be used with <b>CSS</b> with additional interactivity with <b>Jquery</b> and plain <b>Javascrip</b>.
+The main navbar will be responsive and also make use of the single page applcation routing on <b>Angular JS</b>. Styling will be used with <b>CSS</b> with additional interactivity with <b>Jquery</b> and plain <b>Javascript</b>.
  
 ## Contributing
+
+
+## Developer
+
+This is being developed by <b> David Williams </b>
