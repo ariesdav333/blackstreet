@@ -20,7 +20,7 @@ header {
 	background-image: url("/media/black_backgroundcover.png");
 	padding: 50px 25px 10px 0;
 	color: #fff;
-	margin-bottom: 2em;
+	margin-bottom: 4em;
 	opacity: 0.7;
 }
 h1 {
@@ -99,7 +99,7 @@ section:last-of-type {
 }
 footer {
 	clear: both;
-	padding: 25px 0 15px;
+	padding: 45px 0 15px;
 }
 }
 @media all and (min-width: 481px) and (max-width: 780px) {
@@ -128,7 +128,7 @@ footer {
 
 /*CONTENT STYLES*/
 h1 {
-	font-size: 2.4em;
+	font-size: 1.4em;
 }
 footer {
 	font-size: 1em;
