@@ -15,7 +15,7 @@ angular.module('BlackApp').config(function($locationProvider, $routeProvider) {
 
     .when('/band', {
         templateUrl: 'templates/band.html',
-        //'faqsController'
+        //'mwembers register area'
     })
 
     .when('/info', {
