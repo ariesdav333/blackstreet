@@ -21,7 +21,13 @@ angular.module('BlackApp').config(function($locationProvider, $routeProvider) {
     .when('/info', {
         templateUrl: 'templates/info.html',
         // 'ContactusController'
-    });
+    })
+
+     .when('/register', {
+        templateUrl: 'register/info.html',
+        // 'ContactusController'
+    })
+
 
    
 
