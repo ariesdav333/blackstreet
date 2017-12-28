@@ -57,6 +57,28 @@
     margin: 1% auto;
   }
 
+  .carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    text-transform: uppercase;
+  }
+
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none;
+    }
+  }
+
+  .container {
+    margin: 4% auto;
+  }
+
+  #icon {
+    max-width: 200px;
+    margin: 1% auto;
+  }
+
+
    </style>
 
 
@@ -123,14 +145,19 @@
 </div>
   </div> 
 <!-- start slider controls -->
+
+<!-- left carousel -->
 <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
 <span class="glyphicon glyphicon-chevron-left" area-hidden="true"></span>
 <span class="sr-only">Previous</span>
 </a>
+
+<!-- Right carousel -->
 <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
 <span class="glyphicon glyphicon-chevron-right" area-hidden="true"></span>
 <span class="sr-only">Next</span>
 </a>
+
 </div><!-- end of Image slider -->
 
 
@@ -142,11 +169,6 @@
 <div ng-view>  </div>
 
 
-
-
-
-
-  
     <hr>
 
   <div class="container text-center">
@@ -154,26 +176,35 @@
 
     <div class="row">
       <div class="col-sm-4">
-        <img src="/media/black_front.png"  id="icon">
-        <h4>Blackstreet</h4>
+        <img src="/media/teddy.png"  id="icon">
+        <h3>Blackstreet</h3>
       </div>
 
       <div class="col-sm-4">
-        <img src="/media/black_front.png"  id="icon">
-        <h4>90's RnB</h4>
+        <img src="/media/chauncey.png"  id="icon">
+        <h3>90's RnB</h3>
       </div>
 
       <div class="col-sm-4">
-        <img src="/media/black_front.png"  id="icon">
-        <h4>Are back</h4>
+        <img src="/media/markmiddleton.png"  id="icon">
+        <h3>Are back</h3>
       </div>
 
-      
     </div>
   </div>
     
 
 </br>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6"> 
+     </div>
+     <div class="col-md-6"> 
+        <img src="/media/dont_leave.png" width="600" class="img-responsive">
+     </div>
+  </div>
+</div>
 
 
 <script src='js/app.js'></script>
