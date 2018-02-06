@@ -3,4 +3,20 @@
 
 #myCarousel{
 	opacity: 0.5;
+	
+}
+
+
+h2{
+	text-shadow: 2px 2px;
+}
+
+.bfooter {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
 }
