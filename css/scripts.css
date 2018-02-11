@@ -77,3 +77,30 @@ h2{
       display: none;
     }
   }
+
+
+/* Created section id's for each link Angular.js Route*/
+  #home{
+    font-size: 26px;
+    font-style: oblique;
+  }
+
+  #about{
+    font-size: 26px;
+    font-style: oblique;
+  }
+
+  #band{
+    font-size: 26px;
+    font-style: oblique;
+  }
+
+   #info{
+    font-size: 26px;
+    font-style: oblique;
+  }
+
+
+
+
+  /* Ending styling for section is's */
