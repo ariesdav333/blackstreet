@@ -39,8 +39,3 @@ BlackApp.controller('HomeController', function($scope) {
 }); 
 
 
-//create the controller and inject Angular
-BlackApp.controller('AboutController', function($scope) {
-    // create a message to display in our view
-    $scope.message = 'About us ';
-}); 

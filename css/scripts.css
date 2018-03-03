@@ -3,10 +3,11 @@
 
 
 
-  img{
-
-    height: 500;;
-  }
+#landing{
+  font-style: italic;
+  color: #7979d2;
+}
+  
 
  .btn {
       font-size: 18px;
