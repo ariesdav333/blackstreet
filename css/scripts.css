@@ -2,11 +2,17 @@
 /* Stylesheet for my web application */
 
 
+
+  img{
+
+    height: 500;;
+  }
+
  .btn {
       font-size: 18px;
-      color: #FFF;
+      color: #7979d2;
       padding: 12PX 22PX;
-      background: #5e4485;
+      background: #5e5575;
     }
 
     .container {
@@ -21,7 +27,8 @@
 
 
 #myCarousel{
-	opacity: 0.5;	
+  opacity: 0.8;	
+  
 }
 
 
@@ -101,6 +108,8 @@ h2{
   }
 
 
-
+  .btn btn-default{
+    color: #7979d2;
+  }
 
   /* Ending styling for section is's */

@@ -4,16 +4,16 @@
     <base href="/"> <!-- needed for Angular HTML 5 mode -->
     <title>Blackstreet 2018</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="/css/scripts.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-route.js"></script>
+  <link rel="stylesheet" type="text/css" href="/css/scripts.css">
 
-   
     <script>
     /// Fades in page on load to main index.html
     $(document).ready(function(){
@@ -22,15 +22,12 @@
     });
     </script> 
 
-
 </head>
 
+<body ng-app="BlackApp" class "ng-scope">
 
 
-
-
-<body ng-app="BlackApp">
-
+    
 
  <!-- Brand and toggle get grouped for better mobile display -->
   <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -50,10 +47,10 @@
     <div class="collapse navbar-collapse" id="MyNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li class="active"><a href="/"> Home </a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/band">Band</a></li>
-        <li><a href="/info">Info On band</a></li>
-        <li><a href="/register">Register</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#band">Band</a></li>
+        <li><a href="#info">Info On band</a></li>
+        <li><a href="#accounts/register">Register</a></li>
         </li>
       </ul>
     </div><!-- /.navbar-collapse -->
@@ -71,7 +68,7 @@
 
 <div class="carousel-inner" role="listbox">
   <div class="item active">
-    <img src="/media/black_home.png" height="1100" width="1600">
+    <img src="/media/black_home.png" height="500" width="1600">
     <div class="carousel-caption">
       <h1>Welcome to Blackstreet 2017</h1>
       <br>
@@ -79,10 +76,10 @@
   </div>
 </div> <!-- end active -->
   <div class="item">
-    <img src="/media/black_one.png" height="1000" width="1600">
+    <img src="/media/black_one.png" height="500" width="1600">
 </div>
  <div class="item">
-    <img src="/media/black_home.png" height="1000" width="1600">
+    <img src="/media/black_home.png" height="500" width="1600">
 </div>
   </div> 
 <!-- start slider controls -->
@@ -107,15 +104,12 @@
 
  <p id="demo"></p>
 
-<div ng-view>  </div>
-
-
     <hr>
-
-
-    
-
 </br>
+
+<div ng-view class=ng-scope""> 
+
+  </div>
 
 
 
@@ -131,7 +125,8 @@
   </div>
 </div>
 
-
+ <script src="js/controller.js"></script>
 <script src='js/app.js'></script>
+<script src='js/service.js'></script>
 </body>
 </html>
