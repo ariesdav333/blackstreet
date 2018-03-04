@@ -27,7 +27,6 @@ angular.module('BlackApp').config(function($locationProvider, $routeProvider) {
         templateUrl: 'templates/register.html',
         controller: 'RegisterController'
 
-
      });
 });
 
