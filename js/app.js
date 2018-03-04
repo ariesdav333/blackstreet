@@ -1,4 +1,4 @@
-var BlackApp = angular.module('BlackApp', ['ngRoute', 'RouteControllers']);
+var BlackApp = angular.module('BlackApp', ['ngRoute', 'RouteControllers', 'UserService', 'angular-storage']);
  
 angular.module('BlackApp').config(function($locationProvider, $routeProvider) {
     $locationProvider.html5Mode(true);  // Enable href routing without hashes
