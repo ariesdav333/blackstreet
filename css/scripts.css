@@ -53,10 +53,13 @@
       color: #D5D5D5;
     }
 
+    h1{
+      font-family: 'Anton';
+    }
+
 h2{
   color: #7979d2;
   font-family: 'Adamina';
-
 }
 
 .bfooter {
