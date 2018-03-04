@@ -3,6 +3,10 @@
 
 
 
+.black_img{
+ -webkit-filter: grayscale(1);
+}
+
 #landing{
   font-style: italic;
   color: #7979d2;
@@ -51,6 +55,8 @@
 
 h2{
   color: #7979d2;
+  font-family: 'Adamina';
+
 }
 
 .bfooter {
