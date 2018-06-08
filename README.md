@@ -47,4 +47,4 @@ This is a picture gallery app to showcase images from the band members of "Black
 
 ## Developer
 
-This is being designed and developed by <b> David Williams </b> 2017
+This is being designed and developed by <b> David Williams </b> 2018
